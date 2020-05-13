@@ -1,0 +1,90 @@
+body
+{
+	background-color: #333;
+	color: #fff;
+	font-family: Verdana, sans-serif;
+}
+
+#header{
+	text-align: center;
+}
+
+.operand
+{
+	color: blue;
+}
+
+.operator
+{
+	color: green;
+	/width: 30px !important;/
+}
+
+.row{
+	display: block;
+	position: relative;
+}
+
+.row div{
+	display: inline-block;
+	background-color: #2ecc71;
+	color: #fff;
+	height: 70px;
+	width: 80px;
+	text-align: center;
+	margin: 5px 3px;
+	cursor: pointer;
+	border-radius: 3px;
+}
+
+.row div:hover{
+	background-color: #37DB7D;
+}
+
+.row div:active{
+	background-color: #27ae60;
+}
+
+.row span{
+	display: block;
+	margin-top: 20px;
+	font-size: 18pt;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	/background-color: #fff;/
+}
+
+input[type=button]{
+	height: 70px;
+	width: 70px;
+	text-align: center;
+}
+
+input[type=text]{
+	height: 40px;
+	width: 360px;
+	border: 1px solid #ccc;
+	text-align: left;
+	font-size: 18pt;
+	margin-bottom: 10px;
+}
+
+.highlight{
+	background-color: #e67e22 !important;
+}
+
+.highlight:hover{
+	background-color: #ED8C37 !important;
+}
+
+.highlight:active{
+	background-color: #d35400 !important;
+}
+
+hr{
+	width: 360px;
+	margin: 10px 0;
+}
